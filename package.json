@@ -1,0 +1,28 @@
+{
+  "name": "daffy",
+  "version": "1.0.0",
+  "description": "Spot the difference game",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kiddo-sdk:build": "kiddo-sdk build-application",
+    "parcel:build": "parcel build",
+    "build": "npm run kiddo-sdk:build && npm run parcel:build",
+    "dev": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkinator/daffy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkinator/daffy/issues"
+  },
+  "homepage": "https://github.com/utkinator/daffy#readme",
+  "devDependencies": {
+    "kiddo-sdk": "file:../kiddo-sdk",
+    "parcel": "^2.0.1"
+  }
+}
