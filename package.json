@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/utkinator/daffy#readme",
   "devDependencies": {
-    "kiddo-sdk": "file:../kiddo-sdk",
+    "kiddo-sdk": "github:utkinator/kiddo-sdk",
     "parcel": "^2.0.1"
   }
 }
