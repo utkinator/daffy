@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "kiddo-sdk:build": "kiddo-sdk build-application",
-    "parcel:build": "parcel build",
-    "build": "npm run kiddo-sdk:build && npm run parcel:build",
+    "kiddo-sdk:publish": "kiddo-sdk publish-application",
+    "build": "npm run kiddo-sdk:build",
+    "publish": "npm run build && npm run kiddo-sdk:publish",
     "dev": "parcel"
   },
   "repository": {
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/utkinator/daffy#readme",
   "devDependencies": {
-    "kiddo-sdk": "git+https://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:x-oauth-basic@github.com/utkinator/kiddo-sdk.git",
+    "kiddo-sdk": "file:../kiddo-sdk",
     "parcel": "^2.0.1"
   }
 }
